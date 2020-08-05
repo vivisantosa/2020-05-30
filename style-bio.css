@@ -17,14 +17,14 @@
     text-align: center;}
 .col {
     align-self: center;}
+.a{
+    color:lightgrey;}
 
 /*index*/
 .GreenBox{
     background-color: #074d52;
     width: 60%;
     align-self: center;
-    color: whitesmoke;
-    font-weight: 800;
     margin-left : 20%;
     height: 700px;  
     z-index: 3;  
@@ -64,13 +64,22 @@
     Position: fixed;
     Top: 300px;
     Left:-20px;
-    Width: 600px;
+    Width: 680px;
     Height:250px; 
     padding: 15px;
-    padding-left: 40px;
-    background-color:teal;
-    border: solid red 1pt;
+    padding-left: 50px;
+    margin-right: 20px;
+    text-justify: auto;
+    background-color: #ff5757;
     z-index: 20;
+}
+.GreenBox1{
+    background-color: #ff5757;
+    width: 50%;
+    align-self: center;
+    margin-left : 25%;
+    height: 700px;  
+    z-index: 3;  
 }
 .C2 {width:450px;
     position: fixed;
@@ -81,7 +90,7 @@
 .C3 {width:500px;
     position: fixed;
     bottom:-225px;
-    left:-50px
+    right:-50px;
     z-index: 4;
 }
 /* Page 2*/
@@ -92,7 +101,7 @@
 .MiddleBox{
     margin-top: 60px;
     margin-bottom: 60px;
-    border:solid 5pt black;s;
+    border:solid 5pt black;
     padding: 5%;
 }
 .GlCircle{
@@ -124,40 +133,33 @@
 .Content{
     padding-right: 15px;
 }
-.fa{
-    font-size:36px;
-    margin-top: 5px;}
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
+.ci{
+    margin: 10px;
+    width: 35px;
+    height:35px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    padding-top: 10px;
     border-radius: 50%;
-  }
-  
+    position: sticky;
+    bottom: -10px; 
+    background: white;   
+}
 .fa:hover {
       opacity: 0.7;
   }
+.fa-github {
+    background: white;
+    color: black;} 
+.fa-500px {
+    background: white;
+    color: black;}  
 .fa-linkedin {
-    width: 35pt;
-    height: 35pt;
-    border-radius: 50%;    
-    font-size:36px;
-    margin-top: 5px;
     background: #007bb5;
-    color: white;
-  }
-  .fa-instagram {
-    width: 35pt;
-    height: 35pt;
-    border-radius: 50%;    
-    font-size:36px;
-    margin-top: 5px;  
+    color: white;}
+.fa-instagram {
     background: #125688;
-    color: white;
-  }  
+    color: white;}  
 
 /* Adding media queries for
 screen smaller than 780 pixels */
