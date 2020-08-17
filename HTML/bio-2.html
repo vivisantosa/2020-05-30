@@ -18,18 +18,44 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body style="background-color:#ff5757">
+    <!--Navbar with collapse and drop down -->
+    <nav class="navbar navbar-inverse" id="MyColor_Blue"> 
+        <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" id="RightAlign" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" id="Project_Font" href="index.html">WEB VISUALIZATION PROJECT</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://vivisantosa.github.io/HTML/bio-1.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            <li><a href="bio-3.html">Data</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Artist <span class="caret"></span></a>
+                <ul class="dropdown-menu">                
+                <li><a href="photogallery.html">Photo Gallery</a></li>
+                <li><a href="paintinggallery.html">Painting Gallery</a></li>
+                </ul>
+            </li>
+            <li><a href="https://vivisantosa.github.io/"><span class="glyphicon glyphicon-user"></span> MyPage</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>  
     <div class="container-fluid" >    
         <div class="row"> <!--body-->
-            <div style="background-color:#aaa; height: 80px;"></div>
             <div class="col-sm-2">
             </div>
             <div class="col-sm-8 MiddleBox BackgroundPicture">
                 <div class="col-sm-4" style =text-align:center>
-                    <div class="GlCircle" id="MyColor1">
-                        <span class= "fa fa-laptop"></span>
+                    <div class="GlCircle" id="MyColor1" >
+                        <a href="bio-5.html" style="color:black"><span class= "fa fa-laptop"></span></a>
                     </div>
                     <div class="SmallBox" style="background-color:teal">
-                        <a href="bio-3.html"><div class="ContentTitle">DATA ANALYST</div></a>
+                        <a href="bio-3.html" class="btn btn-info btn-lg" role="button" id="MyColor1">DATA ANALYST</a>
                         <div class="Content">Graduating from the prestigious data analytic boothcamp</div>
                         <a target="_blank" href="https://github.com/vivisantosa" class="ci fa fa-github"></a>
                     </div>
@@ -39,17 +65,17 @@
                         <span class="fa fa-bar-chart"></span>
                     </div>
                     <div class="SmallBox" style="background-color:grey">
-                        <div class="ContentTitle">FINANCE</div>
+                        <div class="btn btn-info btn-lg" role="button" id="MyColor2">FINANCE</div>
                         <div class="Content">More than 5 yrs experience as financial analyst</div>
                         <a target="_blank" href="https://www.linkedin.com/in/vivianti-santosa-0627024/" class="ci fa fa-linkedin"></a>
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="GlCircle" id="MyColor1">
-                        <a href="bio-5.html"><span class="fa fa-camera-retro"></span></a>
+                    <div class="GlCircle" id="MyColor1" style="color:black">
+                        <a href="bio-5.html" style="color:black"><span class="fa fa-camera-retro"></span></a>
                     </div>
                     <div class="SmallBox" style="background-color:teal">
-                        <a href="bio-5.html"><div class="ContentTitle">ARTIST</div></a>
+                        <a href="bio-5.html" class="btn btn-info btn-lg" role="button" id="MyColor1">ARTIST</a>
                         <div class="Content">I am a photographer, painter, and poet</div>
                         <a target="_blank" href="https://500px.com/vivisantosa" class="ci fa fa-500px"></a>
                         <a target="_blank" href="https://www.instagram.com/vivisantosa/" class="ci fa fa-instagram"></a>

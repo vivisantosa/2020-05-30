@@ -18,12 +18,39 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body style="background-color:#ff5757">
+    <!--Navbar with collapse and drop down -->
+    <nav class="navbar navbar-inverse" id="MyColor_Blue"> 
+        <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" id="RightAlign" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" id="Project_Font" href="index.html">WEB VISUALIZATION PROJECT</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://vivisantosa.github.io/HTML/bio-1.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            <li><a href="bio-3.html">Data</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Artist <span class="caret"></span></a>
+                <ul class="dropdown-menu">                
+                <li><a href="photogallery.html">Photo Gallery</a></li>
+                <li><a href="paintinggallery.html">Painting Gallery</a></li>
+                </ul>
+            </li>
+            <li><a href="https://vivisantosa.github.io/"><span class="glyphicon glyphicon-user"></span> MyPage</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
     <div class="container-fluid BackgroundPicture" >    
         <div class="row"> <!--body-->
-            <div style="background-color:#aaa; height: 100px;">            
-                <h1 class="Title5" style="color:#ff5757">Vivi's Gallery<br><br></h1>
+            <div style="background-color:#aaa; height: 70px; top:-25px; margin-top:0px;">            
+                <h3 class="Title5" >Vivi's Gallery<br><br></h3>
             </div>
-            <div class="col-sm-2" id="flowerbg">
+            <div class="col-sm-2" >
             </div>
             <div class="col-sm-8 MiddleBox" style="background-color:#074d52;">
                 <div class="col-sm-4 " style =text-align:center>

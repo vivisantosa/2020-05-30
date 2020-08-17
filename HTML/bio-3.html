@@ -17,9 +17,48 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body >
+<body style="background-color:#ff5757">
+  <!--Navbar with collapse and drop down -->
+  <nav class="navbar navbar-inverse" id="MyColor_Blue"> 
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" id="RightAlign" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" id="Project_Font" href="index.html">WEB VISUALIZATION PROJECT</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://vivisantosa.github.io/HTML/bio-1.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+          <li><a href="HTML/bio-3.html">Data</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Artist <span class="caret"></span></a>
+              <ul class="dropdown-menu">                
+              <li><a href="HTML/photogallery.html">Photo Gallery</a></li>
+              <li><a href="HTML/paintinggallery.html">Painting Gallery</a></li>
+            </ul>
+          </li>
+          <li><a href="https://vivisantosa.github.io/"><span class="glyphicon glyphicon-user"></span> MyPage</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
     <div class="container-fluid" > 
-        <p>under construction</p>
+      <div class="row"> <!--body-->
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8 MiddleBox BackgroundPicture">
+          <button type="button" class="btn btn-info btn-lg" id="TitleButt">UoT BOOTCAMP PROJECTS</button><br>
+
+          <a href="https://vivisantosa.github.io/Unit-06-Python-API-challenge/" class="btn btn-info btn-lg" role="button" id="LongButt">Python API Project</a><br>
+          <a href="https://vivisantosa.github.io/Unit-11-Web-Design-Challenge/" class="btn btn-info btn-lg" role="button" id="LongButt">Web Design Project</a><br>
+          <a href="https://vivisantosa.github.io/Unit-12-Web-Scraping-Challenge/" class="btn btn-info btn-lg" role="button" id="LongButt">Web Scraping Project</a><br>
+          <a href="bio-3.html" class="btn btn-info btn-lg" role="button" id="LongButt">Future Project</a><br>
+          <a href="bio-3.html" class="btn btn-info btn-lg" role="button" id="LongButt">Future Project</a><br>
+        </div>
+      </div> <!--of the BodyPart-->
     </div>
 </body>
 </html>
