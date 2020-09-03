@@ -73,13 +73,13 @@
 .PinkBox{
     Position: relative;
     Top: 250px;
-    Left:-20px;
     Width: 680px;
     Height:250px; 
     padding: 15px;
     padding-left: 50px;
-    margin-right: 20px;
-    text-justify: auto;
+    padding-right: 30px;
+    text-align: justify;
+    font-size: 13pt;
     background-color: #ff5757;
     z-index: 20;
 }
@@ -112,6 +112,10 @@
     bottom:150px;
     right:-250px;
     z-index: 4;
+}
+.card-title{
+    font-size:16px;
+    text-align: center;
 }
 .ContactBox{
     background-color: #ff5757;
@@ -238,6 +242,7 @@ p{
     border: 3px black solid;
     text-align: justify;
     max-height: 340px;
+    margin-bottom: 20px;
 }
 .card-img-top{
     width:100%;
@@ -264,8 +269,24 @@ p{
     background-image: url(../Images/abstract-1296710_1920.png);}
 
 /* Adding media queries for
-screen smaller than 780 pixels */
-@media (max-width: 780px) {
+screen smaller than 680 pixels */
+@media (max-width: 680px) {
+    .PinkBox{
+        Position: relative;
+        Top: 300px;
+        Width: 100%;
+        padding-left: 25px;
+        padding-right: 15px;
+        padding-bottom:  30px;
+        background-color: #ff5757;
+        z-index: 20;
+        font-size: 14px;
+    }
+    .card{
+        max-height: 290px;
+        margin-bottom: 20px;}
+    .card-title{
+        font-size: 13px}
     .GreenBox{
         width: 50%;
         margin-left : 25%;
@@ -274,10 +295,24 @@ screen smaller than 780 pixels */
         margin-top: 30px;
         font-size: 48px;
         text-align: center;}
-    .C1{  
-        margin-top:50px;}
+    .GreenBox1{
+        background-color: #074d52;
+        position: relative; 
+        top:-250px; 
+    }
+    .C1{position: relative; 
+        align-items: center;
+        top: -25px;
+        margin-top:00px;}
+    .StripCircle{position: relative; 
+        top:-100px; }
+    .C2{height: 0px;
+        visibility: hidden;}
+    .C3{height: 0px;
+        visibility: hidden;}
     .MiddleBox{
-        margin: 30px;}
+        margin: 30px;
+        height: 670px}
     .SmallBox {
         height: 130px;
         margin-top: -30px;}
