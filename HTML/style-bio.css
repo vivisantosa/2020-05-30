@@ -104,7 +104,6 @@
 
 .C3 {/* Using the border-radius property to draw the semi-circle*/ 
     position: relative;
-    top: 50%; 
     transform: translate(-50%, -50%); 
     height: 300px; 
     width: 400px; 
