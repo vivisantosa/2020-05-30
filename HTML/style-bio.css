@@ -131,10 +131,11 @@
     background-size: 100%;    
 }
 .MiddleBox{
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     border:solid 3pt black;
-    padding: 5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .GlCircle{
     width: 50pt;
@@ -219,6 +220,7 @@
 /*Page 3*/
 h4{
     font-size: 13px;
+    font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
 }
 p{
@@ -240,7 +242,7 @@ p{
     padding: 10px;
     border: 3px black solid;
     text-align: justify;
-    height: 380px;
+    height: 310px;
     margin: 15px;
 }
 .card-img-top{
