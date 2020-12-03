@@ -12,7 +12,7 @@
 #MyColorBlue{
     background-color: #356178;}
 #MyColorOrange{
-        background-color: #ff5757;}
+    background-color: #ff5757;}
 #MyFontWhite{
     color: white;}
 #Clear{
@@ -23,13 +23,12 @@
     align-self: center;}
 .a{
     color:lightgrey;}
+
 /*navnbar*/
 .navbar{
-    margin-bottom:0;
-}
+    margin-bottom:0;}
 #myNavbar{
-    font-size: 14px;
-}
+    font-size: 14px;}
 /*index*/
 .GreenBox{
     background-color: #074d52;
@@ -253,7 +252,6 @@ p{
     text-align: justify;
 }
 
-
 /*Page 5*/
 .Title5{
     font-size: 48px;
@@ -262,6 +260,12 @@ p{
     text-align: center;
     margin-top: 0%;
     padding-top: 10px;}
+.MiddleBox1{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border:solid 3pt black;
+    padding-top: 30px;
+    padding-bottom: 30px;}
 .BoxImage{
     max-width:70%;
     height: auto;
